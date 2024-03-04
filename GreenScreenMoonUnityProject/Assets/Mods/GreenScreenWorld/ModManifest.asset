@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1366554475, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: ModManifest
+  m_EditorClassIdentifier: 
+  modName: Green Screen World
+  version:
+    Major: 1
+    Minor: 3
+    Build: 38
+    Revision: 0
+  serializedVersion: 1.3.38.0
+  author: Axis
+  description: Green Screen world and scrap for youtubers.
+  scraps:
+  - {fileID: 11400000, guid: ca0ba49b5caca4584b6f5680ad0f3bac, type: 2}
+  moons:
+  - {fileID: 11400000, guid: 8a96d5f430d34884185c4158d49ee320, type: 2}
+  assetBank: {fileID: 11400000, guid: 2a7fdfc3d27635646a937367685c567d, type: 2}

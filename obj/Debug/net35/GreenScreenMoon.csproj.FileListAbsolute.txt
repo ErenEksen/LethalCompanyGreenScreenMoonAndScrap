@@ -1,0 +1,10 @@
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/bin/Debug/net35/GreenScreenMoon.dll
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/bin/Debug/net35/GreenScreenMoon.pdb
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/obj/Debug/net35/GreenScreenMoon.csproj.AssemblyReference.cache
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/obj/Debug/net35/PluginInfo.cs
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/obj/Debug/net35/GreenScreenMoon.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/obj/Debug/net35/GreenScreenMoon.AssemblyInfoInputs.cache
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/obj/Debug/net35/GreenScreenMoon.AssemblyInfo.cs
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/obj/Debug/net35/GreenScreenMoon.csproj.CoreCompileInputs.cache
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/obj/Debug/net35/GreenScreenMoon.dll
+/Users/ereneksen/Documents/VSCode/C#/LethalCompany/GreenScreenMoon/obj/Debug/net35/GreenScreenMoon.pdb

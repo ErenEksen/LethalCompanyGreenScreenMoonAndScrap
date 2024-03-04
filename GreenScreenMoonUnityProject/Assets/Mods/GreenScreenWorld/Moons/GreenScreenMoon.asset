@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1946537778, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: GreenScreenMoon
+  m_EditorClassIdentifier: 
+  MoonName: GreenScreenMoon
+  RequiredBundles: []
+  IncompatibleBundles: []
+  IsEnabled: 1
+  IsHidden: 0
+  IsLocked: 0
+  OrbitPrefabName: GreenScreenMoon
+  SpawnEnemiesAndScrap: 1
+  PlanetName: 31 GreenScreenMoon
+  MainPrefab: {fileID: 2016254630306542993, guid: 718fcf9bfba85b64bb28a71f9355886e, type: 3}
+  PlanetDescription: Ben yaptim
+  PlanetLore: 
+  PlanetVideo: {fileID: 0}
+  RiskLevel: C
+  TimeToArrive: 1
+  DaySpeedMultiplier: 1
+  PlanetHasTime: 0
+  _RandomWeatherTypes:
+  - Weather: -1
+    WeatherVariable1: 0
+    WeatherVariable2: 0
+  OverwriteWeather: 0
+  OverwriteWeatherType: -1
+  RouteWord: GreenScreenMoon
+  RoutePrice: 0
+  BoughtComment: Green Screen Moon
+  FactorySizeMultiplier: 1
+  FireExitsAmountOverwrite: 1
+  _DungeonFlowTypes:
+  - ID: 0
+    Rarity: 300
+  - ID: 1
+    Rarity: 1
+  _SpawnableScrap:
+  - ObjectName: Cog1
+    SpawnWeight: 80
+  - ObjectName: EnginePart1
+    SpawnWeight: 90
+  - ObjectName: FishTestProp
+    SpawnWeight: 12
+  - ObjectName: MetalSheet
+    SpawnWeight: 88
+  - ObjectName: FlashLaserPointer
+    SpawnWeight: 4
+  - ObjectName: BigBolt
+    SpawnWeight: 80
+  - ObjectName: BottleBin
+    SpawnWeight: 19
+  - ObjectName: Ring
+    SpawnWeight: 3
+  - ObjectName: SteeringWheel
+    SpawnWeight: 32
+  - ObjectName: MoldPan
+    SpawnWeight: 5
+  - ObjectName: EggBeater
+    SpawnWeight: 10
+  - ObjectName: PickleJar
+    SpawnWeight: 10
+  - ObjectName: DustPan
+    SpawnWeight: 32
+  - ObjectName: Airhorn
+    SpawnWeight: 3
+  - ObjectName: ClownHorn
+    SpawnWeight: 3
+  - ObjectName: CashRegister
+    SpawnWeight: 3
+  - ObjectName: Candy
+    SpawnWeight: 2
+  - ObjectName: GoldBar
+    SpawnWeight: 1
+  - ObjectName: YieldSign
+    SpawnWeight: 6
+  - ObjectName: battery
+    SpawnWeight: 10
+  - ObjectName: cannedfood
+    SpawnWeight: 15
+  - ObjectName: matchbox
+    SpawnWeight: 5
+  - ObjectName: pills
+    SpawnWeight: 2
+  - ObjectName: tape
+    SpawnWeight: 20
+  spawnableScrapBlacklist: []
+  MinScrap: 8
+  MaxScrap: 12
+  LevelAmbienceClips: Level1TypeAmbience
+  MaxEnemyPowerCount: 4
+  _Enemies:
+  - EnemyName: Centipede
+    SpawnWeight: 51
+  - EnemyName: SandSpider
+    SpawnWeight: 58
+  - EnemyName: HoarderBug
+    SpawnWeight: 28
+  - EnemyName: Flowerman
+    SpawnWeight: 13
+  - EnemyName: Crawler
+    SpawnWeight: 16
+  - EnemyName: Blob
+    SpawnWeight: 31
+  - EnemyName: DressGirl
+    SpawnWeight: 1
+  - EnemyName: Puffer
+    SpawnWeight: 28
+  EnemySpawnChanceThroughoutDay:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.145607
+      value: -5.62265
+      inSlope: -1.256983
+      outSlope: -1.256983
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.1040039
+      value: -7.19339
+      inSlope: -1.256983
+      outSlope: -1.256983
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SpawnProbabilityRange: 4
+  _SpawnableMapObjects: []
+  _SpawnableOutsideObjects: []
+  MaxOutsideEnemyPowerCount: 0
+  MaxDaytimeEnemyPowerCount: 0
+  _OutsideEnemies:
+  - EnemyName: MouthDog
+    SpawnWeight: 75
+  - EnemyName: ForestGiant
+    SpawnWeight: 0
+  - EnemyName: SandWorm
+    SpawnWeight: 56
+  _DaytimeEnemies:
+  - EnemyName: RedLocustBees
+    SpawnWeight: 22
+  - EnemyName: Doublewing
+    SpawnWeight: 74
+  - EnemyName: DocileLocustBees
+    SpawnWeight: 52
+  OutsideEnemySpawnChanceThroughDay:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.00000077369623
+      value: -2.997
+      inSlope: Infinity
+      outSlope: 0.5040292
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.08937686
+    - serializedVersion: 3
+      time: 0.71054816
+      value: -0.65558225
+      inSlope: 9.172262
+      outSlope: 9.172262
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.33333334
+      outWeight: 0.71965504
+    - serializedVersion: 3
+      time: 1.0052626
+      value: 5.3594007
+      inSlope: 216.42247
+      outSlope: 11.374388
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.04463718
+      outWeight: 0.48315445
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DaytimeEnemySpawnChanceThroughDay:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 2.2706568
+      inSlope: -7.5000854
+      outSlope: -7.5000854
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.20650266
+    - serializedVersion: 3
+      time: 0.38507816
+      value: -0.006410897
+      inSlope: -2.7670975
+      outSlope: -2.7670975
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.28388944
+      outWeight: 0.30659768
+    - serializedVersion: 3
+      time: 0.6767025
+      value: -7.0216584
+      inSlope: -27.286888
+      outSlope: -27.286888
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.10391547
+      outWeight: 0.12503523
+    - serializedVersion: 3
+      time: 0.9998173
+      value: -14.818101
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DaytimeEnemiesProbabilityRange: 5
+  LevelIncludesSnowFootprints: 0
+  serializedRandomWeatherTypes: -1,0,0
+  serializedDungeonFlowTypes: 0,300;1,1
+  serializedSpawnableScrap: Cog1,80;EnginePart1,90;FishTestProp,12;MetalSheet,88;FlashLaserPointer,4;BigBolt,80;BottleBin,19;Ring,3;SteeringWheel,32;MoldPan,5;EggBeater,10;PickleJar,10;DustPan,32;Airhorn,3;ClownHorn,3;CashRegister,3;Candy,2;GoldBar,1;YieldSign,6;battery,10;cannedfood,15;matchbox,5;pills,2;tape,20
+  serializedEnemies: Centipede,51;SandSpider,58;HoarderBug,28;Flowerman,13;Crawler,16;Blob,31;DressGirl,1;Puffer,28
+  serializedOutsideEnemies: MouthDog,75;ForestGiant,0;SandWorm,56
+  serializedDaytimeEnemies: RedLocustBees,22;Doublewing,74;DocileLocustBees,52
+  serializedSpawnableMapObjects: 
+  serializedSpawnableOutsideObjects: 
