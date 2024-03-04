@@ -18,10 +18,10 @@ MonoBehaviour:
   itemName: GreenScreen
   minValue: 50
   maxValue: 150
-  twoHanded: 1
+  twoHanded: 0
   HandedAnimation: 1
-  requiresBattery: 1
-  isConductiveMetal: 1
+  requiresBattery: 0
+  isConductiveMetal: 0
   weight: 40
   prefab: {fileID: 1664074090380030, guid: 4568d24ce41744c81a947eae6e3322b5, type: 3}
   useCooldown: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
   dropSFX: 
   verticalOffset: 0.06
   restingRotation: {x: -90, y: 0, z: 0}
-  positionOffset: {x: -0.197, y: -1.187, z: 1.075}
+  positionOffset: {x: -0.255, y: -1.187, z: 1.075}
   rotationOffset: {x: -132.4, y: -3.07, z: 3.233}
   meshVariants: []
   materialVariants: []

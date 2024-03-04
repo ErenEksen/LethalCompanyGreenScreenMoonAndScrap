@@ -22,7 +22,8 @@ MonoBehaviour:
   SpawnEnemiesAndScrap: 1
   PlanetName: 31 GreenScreenMoon
   MainPrefab: {fileID: 2016254630306542993, guid: 718fcf9bfba85b64bb28a71f9355886e, type: 3}
-  PlanetDescription: Ben yaptim
+  PlanetDescription: A moon that surrounded by green walls for Youtubers. Also there
+    is a cute green screen house take a look while you are here.
   PlanetLore: 
   PlanetVideo: {fileID: 0}
   RiskLevel: C
